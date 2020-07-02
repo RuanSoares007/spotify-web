@@ -1,0 +1,71 @@
+@font-face{
+    font-family: negrito;
+    src:url(./font/circular-black.woff2)
+}
+@font-face{
+    font-family: negrito-alto;
+    src:url(./font/circular-bold.woff2);
+}
+@font-face{
+    font-family: normal;
+    src:url(./font/circular-book.woff2);
+}
+
+.row{ 
+    display: flex;
+    font: 16px normal ;
+    font-weight: 400;
+    background-color:transparent;   
+    width: 1140px;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+}
+.col-1{
+    display: flex;
+    flex-grow: 2;
+    align-items: center;
+    justify-content: center;
+}
+.col-4{
+    display:flex;
+    flex-grow: 20;  
+    align-items: center; 
+}
+header{
+    width: 1140px;
+    height: 380px;
+    display: flex;
+    margin-left:    90px;
+    margin-right: 90px;
+}
+.texto{
+    width: 50%;
+    height: 310px;
+
+}
+.image{
+    width: 50%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-image: url(../images/devices-temp-1.png);
+    background-position-x:right ;
+    background-position-y: bottom;
+}
+.nav {
+    background-color: #FFCDD2;
+}
+.line-1{
+    font-size: 36px;
+    margin-top: 15px;
+    font-weight: 900;
+line-height: 1.2;    
+    font-family: negrito-alto;
+
+}
+.line-2{
+    font-family: normal;
+    font-size: 22px;
+}

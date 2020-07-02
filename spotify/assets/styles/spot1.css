@@ -1,0 +1,225 @@
+@font-face{
+    font-family: negrito;
+    src:url(./font/circular-black.woff2)
+}
+@font-face{
+    font-family: negrito-alto;
+    src:url(./font/circular-bold.woff2);
+}
+@font-face{
+    font-family: normal;
+    src:url(./font/circular-book.woff2);
+}
+
+.row { 
+    justify-content: space-between;
+    display: flex;
+    font: 16px normal ;
+    font-weight: 400;
+    height: 80px;
+    margin: 0 auto;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.lado-1{
+    display: inline-flex; 
+    justify-content: space-around;
+    width: 500px;
+    margin-right: 7%;
+}
+.col-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.col-4{
+    display:flex;
+    align-items: center; 
+    margin-left: 8%;
+}
+.col-4 img{
+    width:132px;
+    height:41px;
+
+}
+.nav{
+    height: 585px;
+    background-color: #FFCDD2;
+
+}
+.texto{    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+.texto h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 1140px;
+   letter-spacing: -0.02em;
+    line-height: 1.2;
+    height: 96px;
+    text-align: center;
+    font-weight: 900;
+    word-break: break-all; 
+    font: 80px negrito-alto;
+}
+.texto h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+    font:30px negrito-alto;
+
+}
+.texto button{
+    
+    padding: 17px 48px;
+    background-color: #1db954;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 500px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    border: 0px;
+    margin: 0px 5px 0px 5px;
+    
+    
+}
+.texto .botoes{
+    padding: 10px;
+    padding-top:50px; 
+    
+}
+.botoes .botao2{
+    border:solid black 3px;
+    background-color: transparent;
+    
+    
+    
+}
+.botao2 a{
+    text-decoration: none;
+    color: black;
+}
+.texto h3{
+    font: 13px normal;
+    padding-top:30px ;
+    text-align: center;
+}
+
+  
+
+  @media screen and (max-width: 768px) {
+    .row {justify-content: space-between;
+        display: flex;
+        font: 12px normal ;
+        font-weight: 400;
+        height: 50px;
+        margin: 0 auto;
+        color: white;
+        background-color: black
+  }
+
+.lado-1{
+    display: inline-flex; 
+    justify-content: space-around;
+    width: 500px;
+    margin-right: 7%;
+    
+}
+.col-1{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+}
+.col-4{
+    
+    d;
+    background-size: 80px;
+    align-items: center; 
+    margin-left: 4%;
+}
+.col-4 img{
+    width:61px;
+    height:20px;
+
+}
+.nav{
+    height: 540px;
+    background-color: #FFCDD2;
+
+}
+.texto{    
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    
+    
+}
+.texto h1{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+   letter-spacing: -0.02em;
+    height: 70px;
+    text-align: center;
+    font-weight: 900;
+    word-break: break-all; 
+    font: 38px negrito-alto;
+}
+.texto h2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    font:20px negrito-alto;
+
+}
+.texto button{
+    
+    padding: 17px 30%;
+    background-color: #1db954;
+    width: 420px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 500px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    border: 0px;
+       
+}
+
+.botoes .botao2{
+    border:solid black 3px;
+    background-color: transparent;
+    color:black;
+    margin-top: 20px;
+}
+.texto h3{
+    font: 10px normal;
+    padding-top:30px ;
+    text-align: center;
+}
+.botao2 a{
+    text-decoration: none;
+    color: black;
+}
