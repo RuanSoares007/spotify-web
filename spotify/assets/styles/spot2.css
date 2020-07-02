@@ -1,0 +1,238 @@
+@font-face{
+    font-family: negrito;
+    src:url(./font/circular-black.woff2)
+}
+@font-face{
+    font-family: negrito-alto;
+    src:url(./font/circular-bold.woff2);
+}
+@font-face{
+    font-family: normal;
+    src:url(./font/circular-book.woff2);
+}
+
+@media screen and (min-width: 768px)    
+{
+.row { 
+    margin: opx;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    font: 16px normal ;
+    font-weight: 400;
+    height: 80px;
+    margin: 0px;
+    color: black;
+    background-color: transparent;
+    position: fixed;
+    }
+
+
+    .lado-1{
+        display: inline-flex; 
+        justify-content: space-around;
+        width: 500px;
+        margin-right: 7%;
+    }
+    .col-1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-4{
+        display:flex;
+        align-items: center; 
+        margin-left: 8%;
+    }
+    .col-4 img{
+        width:132px;
+        height:42px;
+
+    }
+    header{
+        width: 100%;
+        margin-top:80px ;
+        display: inline-flex;
+        
+    }
+    .nav{
+        height: 550px;
+        
+        display: flex;
+        
+        background-color: #FFCDD2;
+    }
+.texto-1{
+    
+    margin-top: 40px;
+    width: 500px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.2;    
+    font-family: negrito-alto;
+
+}
+.texto-2{
+    margin-top: 30px;
+    width: 585px;
+    font-family: normal;
+    font-size: 22px;
+}.image{
+    margin-top: 10px;
+    margin-right: 8%;
+    height: 330px;
+    display: flex;
+    
+    width: 50%;
+    
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-image: url(../images/devices-temp-1.png);
+    background-position-x:right ;
+    background-position-y: bottom;
+}   
+.texto div{ 
+    margin-left: 16%;
+    margin-top: 50px;
+}
+.texto{
+    
+    
+    width: 50%;
+    height: 350px;
+}
+.texto button{ 
+    
+    
+    padding: 17px 48px;
+    background-color: #1db954;
+    letter-spacing: 2px;
+    line-height: 1;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 500px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    border: 0px;
+    margin: 0px 5px 0px 5px;
+}
+.article-1{
+    justify-content: center;
+    display: inline-flex;
+    flex-direction: center;
+    
+    flex-wrap: wrap;
+}
+.article-1 h1{
+    padding-top: 60px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font:48px negrito-alto;
+    padding-bottom: 72px;
+}   
+.article-1 .caixas{
+    
+    width: 285px;
+    height: 278px;
+    justify-content: center;
+    align-items: baseline;
+    display: inline-flex;
+    flex-wrap: wrap;    
+}
+.article-1 img{
+    width: 142px;
+    height: 142px;
+    margin:0px 71.5px 40px;
+
+}
+.article-1 h2{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font:21px negrito-alto;
+    text-align: center;
+}
+.article-1 h3{
+    font:16px normal ;
+}   
+.article-2{
+    margin: 0px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 120px;
+    background-color: #f8f8f8;
+}
+.article-2 h1{
+    margin-bottom: 30px;
+    text-align: center;
+    font: 48px negrito-alto;
+}
+.article-2 h2{
+    font:22px normal ;
+    margin-bottom: 100px;
+}
+.article-2 img{
+    margin-top: 50px;
+    width: 68px;
+    height: 37px;
+}
+.titulo h1{
+    font: 48px negrito-alto;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.titulo h2{
+    font: 16px normal;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px ;
+   
+
+}
+.article-3{
+    
+   
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:#f8f8f8 ;
+    display:inline-flex;
+}
+.article-3 .opcoes {
+    
+    margin:10px ;
+   
+    background-color: white;
+    width: 269px;
+    height: 500px;
+}
+.article-3 .caixa-azul{
+    width: 100px;
+    display: flex  ;
+    justify-content: center;
+    color: white;
+    margin: 4px;
+    font:12px normal;
+    background-color: #2d77d0;
+}
+.opcoes h2{
+    font: 22px negrito;
+    padding: 4px;
+}
+.opcoes h3{
+    font: 16px normal;
+    padding: 4px;
+}
+}

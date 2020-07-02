@@ -11,126 +11,239 @@
     src:url(./font/circular-book.woff2);
 }
 
-.row { 
+@media screen and (min-width: 768px)    
+{   
+    .row { 
     justify-content: space-between;
     display: flex;
+    width: 100%;
     font: 16px normal ;
     font-weight: 400;
     height: 80px;
-    margin: 0 auto;
+    margin: 0px;
     color: white;
     background-color: rgba(0, 0, 0, 0.6);
-}
-.lado-1{
-    display: inline-flex; 
-    justify-content: space-around;
-    width: 500px;
-    margin-right: 7%;
-}
-.col-1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.col-4{
-    display:flex;
-    align-items: center; 
-    margin-left: 8%;
-}
-.col-4 img{
-    width:132px;
-    height:41px;
+    position: fixed;
+    }
 
-}
-.nav{
-    height: 585px;
-    background-color: #FFCDD2;
 
-}
-.texto{    
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 20px;
-    
-}
-.texto h1{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    width: 1140px;
-   letter-spacing: -0.02em;
-    line-height: 1.2;
-    height: 96px;
-    text-align: center;
-    font-weight: 900;
-    word-break: break-all; 
-    font: 80px negrito-alto;
-}
-.texto h2{
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 30px;
-    font:30px negrito-alto;
 
-}
-.texto button{
-    
-    padding: 17px 48px;
-    background-color: #1db954;
-    letter-spacing: 2px;
-    line-height: 1;
-    display: inline-block;
-    font-size: 14px;
-    font-weight: 700;
-    border-radius: 500px;
-    color: white;
-    text-transform: uppercase;
-    text-decoration: none!important;
-    border: 0px;
-    margin: 0px 5px 0px 5px;
-    
-    
-}
-.texto .botoes{
-    padding: 10px;
-    padding-top:50px; 
-    
-}
-.botoes .botao2{
-    border:solid black 3px;
-    background-color: transparent;
-    
-    
-    
-}
-.botao2 a{
-    text-decoration: none;
-    color: black;
-}
-.texto h3{
-    font: 13px normal;
-    padding-top:30px ;
-    text-align: center;
-}
-
-  
-
-  @media screen and (max-width: 768px) {
-    .row {justify-content: space-between;
+    .lado-1{
+        display: inline-flex; 
+        justify-content: space-around;
+        width: 500px;
+        margin-right: 7%;
+    }
+    .col-1{
         display: flex;
-        font: 12px normal ;
-        font-weight: 400;
-        height: 50px;
-        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .col-4{
+        display:flex;
+        align-items: center; 
+        margin-left: 8%;
+    }
+    .col-4 img{
+        width:132px;
+        height:42px;
+
+    }
+    .nav{
+        height: 630px;
+        background-color: #FFCDD2;
+        
+
+    }
+    .texto{    
+        flex-direction: column;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+
+    }
+    .texto h1{  
+        padding-top: 200px;
+        white-space: pre-line;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 1000px;
+       letter-spacing: -0.02em;
+        line-height: 1.2;
+        height: 96px;
+        text-align: center;
+        font-weight: 900;
+        word-break: break-all; 
+        font: 80px negrito-alto;
+    }
+    .texto h2{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin-top: 90px;
+        font:30px negrito-alto;
+
+    }
+    .texto button{
+
+        padding: 17px 48px;
+        background-color: #1db954;
+        letter-spacing: 2px;
+        line-height: 1;
+        display: inline-block;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 500px;
         color: white;
-        background-color: black
-  }
+        text-transform: uppercase;
+        text-decoration: none!important;
+        border: 0px;
+        margin: 0px 5px 0px 5px;
+
+
+    }
+    .texto .botoes{
+        padding: 10px;
+        padding-top:30px; 
+
+    }
+    .botoes .botao2{
+        border:solid black 3px;
+        background-color: transparent;
+
+
+
+    }
+    .botao2 a{
+        text-decoration: none;
+        color: black;
+    }
+    .texto h3{
+        font: 13px normal;
+        padding-top:30px ;
+        text-align: center;
+    }
+    article{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 780px;
+                
+        background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+
+    }
+    .bolafundo{
+        background: url(/assets/images/hero-burst\ \(1\).svg) no-repeat;
+        width: 1610px;
+        height: 780px;
+        text-align: center;
+        justify-content: center;
+        color: antiquewhite;
+        display: flex;
+        background-position: top -610px center;
+        background-size: cover;    
+          
+        
+    }
+    
+    .bolafundo h3{ 
+        margin-top: 10px;
+        font:25px normal;
+
+    }
+
+    .bolafundo button{
+        
+        margin-top: 50px;
+    }
+    .bolafundo .texto{
+        margin:0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    footer{
+        min-height: 346px;
+        background-color: black;    
+        padding-top: 70px;
+        display: flex;
+        color: white;   
+        flex-wrap: wrap;
+        padding-left: 8%;
+
+    }
+    footer img{
+        width:132px;
+        height:42px;
+    }
+   
+    .coluna .titulo{
+        height: 16;
+        
+        color: #919496;
+        font: 12px negrito;
+        font-weight: 900;
+        line-height: 1.4;
+        letter-spacing: .08em;
+        text-transform: uppercase;  
+        margin: 20px 0;
+    }
+    footer .coluna{
+        display:flex;
+        width: 195px;
+        height: 346px;
+        flex-direction: column;
+        padding: 0 15px;
+        font:16px normal;
+    }
+    .coluna div{
+        display: inline-flex;
+        flex-direction:column ;
+        width: 100%;
+        height: 42px;
+        
+        
+
+    }
+    .icons img{
+        background-color: blanchedalmond;
+        width: 39px;
+        height: 39px;
+    }
+
+    .icons div {
+        margin:5px ;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #222326;
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+  .row { 
+    position: fixed;  
+    width: 100%; 
+    justify-content: space-between;
+    display: flex;
+    font: 12px normal ;
+    font-weight: 400;
+    height: 50px;
+    margin: 0 auto;
+    color: white;
+    background-color: black
+}   
 
 .lado-1{
+    
     display: inline-flex; 
     justify-content: space-around;
     width: 500px;
@@ -144,42 +257,50 @@
     justify-content: center;
 }
 .col-4{
-    
-    d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: 80px;
     align-items: center; 
     margin-left: 4%;
 }
+
 .col-4 img{
-    width:61px;
-    height:20px;
-
+    width:62px;
+    height:21px;
 }
-.nav{
-    height: 540px;
+.nav{display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;    
+    height: 760px;
     background-color: #FFCDD2;
-
+    width: 100%;
 }
 .texto{    
     flex-direction: column;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    
+    height:600px ;
+    
     align-items: center;
-    padding-top: 10px;
+    padding-top: 120px;
     
     
 }
 .texto h1{
     justify-content: center;
     align-items: center;
+    white-space: pre-line;
     display: flex;
-    width: 100%;
+    width: 450px;
    letter-spacing: -0.02em;
     height: 70px;
     text-align: center;
     font-weight: 900;
     word-break: break-all; 
-    font: 38px negrito-alto;
+    font: 56px negrito-alto;
 }
 .texto h2{
     text-align: center;
@@ -187,14 +308,14 @@
     align-items: center;
     display: flex;
     margin-top: 20px;
-    font:20px negrito-alto;
+    font:16px negrito-alto;
 
 }
 .texto button{
-    
-    padding: 17px 30%;
+    margin-top: 0px;
+    padding: 17px;
     background-color: #1db954;
-    width: 420px;  
+    width: 400px;  
     display: flex;
     justify-content: center;
     align-items: center;
@@ -222,4 +343,107 @@
 .botao2 a{
     text-decoration: none;
     color: black;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:760px ;
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+
+}
+.bolafundo{
+    background: url(/assets/images/hero-burst-mobile.svg) no-repeat;
+    
+    height: 723px;
+    text-align: center;
+    justify-content: center;
+    color: antiquewhite;
+    display: flex;
+    background-size: cover;    
+      
+    
+}
+.bolafundo h1 {
+    font:60px negrito-alto;
+    
+    
+}
+.bolafundo h3{ 
+    margin-top: 10px;
+    font:25px normal;
+
+}
+
+.bolafundo button{
+    
+    margin-top: 50px;
+}
+.bolafundo .texto{
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+footer{
+    min-height: 346px;
+    background-color: black;    
+    padding-top: 70px;
+    display: flex;
+    color: white;   
+    flex-wrap: wrap;
+    padding-left: 8%;
+
+}
+footer img{
+    width:132px;
+    height:42px;
+}
+
+.coluna .titulo{
+    height: 16;
+    
+    color: #919496;
+    font: 12px negrito;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;  
+    margin: 20px 0;
+}
+footer .coluna{
+    display:flex;
+    width: 195px;
+    height: 346px;
+    flex-direction: column;
+    padding: 0 15px;
+    font:16px normal;
+}
+.coluna div{
+    display: inline-flex;
+    flex-direction:column ;
+    width: 100%;
+    height: 42px;
+    
+    
+
+}
+.icons img{
+    background-color: blanchedalmond;
+    width: 39px;
+    height: 39px;
+}
+
+.icons div {
+    margin:5px ;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222326;
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
 }
